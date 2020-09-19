@@ -6,9 +6,8 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-@AllArgsConstructor
 public class User {
-    private Integer id;
+    private int userIdx;
     private String name;
-    private Date joinDate;
+    private String part;
 }
