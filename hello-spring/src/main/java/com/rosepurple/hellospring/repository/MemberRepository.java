@@ -1,9 +1,9 @@
 package com.rosepurple.hellospring.repository;
 
-        import com.rosepurple.hellospring.domain.Member;
+import com.rosepurple.hellospring.domain.Member;
 
-        import java.util.List;
-        import java.util.Optional;
+import java.util.List;
+import java.util.Optional;
 
 public interface MemberRepository {
     Member save(Member member);

@@ -1,6 +1,7 @@
 package com.rosepurple.hellospring.repository;
 
 import com.rosepurple.hellospring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
